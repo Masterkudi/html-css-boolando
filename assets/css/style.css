@@ -35,13 +35,12 @@
 
 .bottom-overlay {
     position: relative;
-    display: flex;    
+        
 }
 
 .green-tag {
-    flex-direction: row;
     position: absolute;
-    align-self: center;
+    display: inline-block;
     left: 0;
     width: 2em;
     padding: .5em 4em;
@@ -50,8 +49,8 @@
 }
 
 .red-tag {
-    flex-direction: row;
     position: absolute;
+    display: inline-block;
     bottom: 1em;
     left: 0;
     width: 4em;
