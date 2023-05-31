@@ -34,26 +34,24 @@
 }
 
 .bottom-overlay {
-    position: relative;
+    position: absolute;
         
 }
 
 .green-tag {
-    position: absolute;
-    display: inline-block;
+    position: relative;
     left: 0;
-    width: 2em;
+    width: 4em;
     padding: .5em 4em;
     background-color: green;
     color: white;
 }
 
 .red-tag {
-    position: absolute;
-    display: inline-block;
+    position: relative;
     bottom: 1em;
     left: 0;
-    width: 4em;
+    width: 3em;
     padding: .5em 1em;
     background-color: red;
     color: white;
