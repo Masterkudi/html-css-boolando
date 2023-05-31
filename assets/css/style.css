@@ -34,12 +34,12 @@
 }
 
 .bottom-overlay {
-    position: absolute;
-        
+    position: absolute;       
 }
 
 .green-tag {
     position: relative;
+    bottom: 3em;
     left: 0;
     width: 4em;
     padding: .5em 4em;
@@ -49,7 +49,7 @@
 
 .red-tag {
     position: relative;
-    bottom: 1em;
+    bottom: 3em;
     left: 0;
     width: 3em;
     padding: .5em 1em;
