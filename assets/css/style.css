@@ -14,12 +14,15 @@ body {
 nav {
     background-color: #FF6910;
     display: flex;
+    top: 0;
     justify-content: space-evenly;
 }
 
 nav ul {
     list-style: none;
-    display: flex;   
+    display: flex;
+    
+    z-index: 1;   
 }
 
 nav ul a {
