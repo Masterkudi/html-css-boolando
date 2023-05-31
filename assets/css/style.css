@@ -4,10 +4,50 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+nav {
+    background-color: #FF6910;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;   
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav img {
+    display: inline-block;
+    align-self: center;
+    height: 2rem;
+
+}
+
+.icons {
+    color: #ffffff;
+    align-self: center;
+}
+
+/* MAIN SECTION */
+
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     margin: 0 auto;
+    padding: .5em;
 }
 
 .row {
@@ -17,13 +57,13 @@
 
 .col {
     flex-basis: 33.3%;
-    padding: 3rem .5rem;
+    padding: 2rem .5rem;
+    position: relative;
 }
 
 .product-card {
     background-color: #f6f6f6;
-    height: 500px;
-    border: .5px solid black;
+    height: 450px;
     display: inline-block;
 }
 
@@ -34,15 +74,14 @@
 }
 
 .bottom-overlay {
-    position: absolute;       
+    position: absolute;
 }
 
 .green-tag {
     position: relative;
     bottom: 3em;
     left: 0;
-    width: 4em;
-    padding: .5em 4em;
+    padding: .3em 1.5em;
     background-color: green;
     color: white;
 }
@@ -51,8 +90,66 @@
     position: relative;
     bottom: 3em;
     left: 0;
-    width: 3em;
-    padding: .5em 1em;
+    padding: .3em .5em;
     background-color: red;
     color: white;
+}
+
+.price {
+    color: red;
+}
+
+.full-price {
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.top-overlay {
+    font-size: 1.4em;
+    position: absolute;
+    top: 2em;
+    right: .35em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-solid.fa-heart {
+    padding: .8em;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.fa-solid.fa-heart:hover {
+    color: red;
+}
+/* FOOTER */
+
+footer nav {
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.social-icons {
+    align-items: center;
+    
+}
+
+.left-nav {
+    color: #ffffff;
+    align-self: center;
+    margin-right: 10em;
+}
+
+
+
+.right-nav {
+    color: #ffffff;
+    align-self: center;
+}
+
+.right-nav h5 {
+    margin-bottom: 1em;
 }
